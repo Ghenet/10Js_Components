@@ -30,6 +30,11 @@ nav {
     right: 0;
     height: 100vh;
     padding: 2rem;
+    transform: translateX(100%);/* hides the nav */
+}
+
+nav.active {
+    transform: translateX(0); /*adds the nav back on active click*/
 }
 
 nav ul {
