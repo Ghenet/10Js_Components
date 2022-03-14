@@ -10,6 +10,10 @@ function createNotification() {
     notif.classList.add('toast');
 
     notif.innerText = 'Notifications should have notifications';
+    container.appendChild(notif);
 
+    setTimeout(()=> {
+        notif.remove();
+    },4000)
 
 }
