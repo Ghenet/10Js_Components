@@ -22,6 +22,8 @@ body {
 
 .image-container {
     display: flex;
+    transition: transform 0.3s linear;
+    transform: translateX(0);
 }
 
 img {
