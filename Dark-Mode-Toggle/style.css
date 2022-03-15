@@ -21,6 +21,12 @@ body.dark {
     color: white;
 }
 
+.toggle-container {
+    position:fixed;
+    top: 10px;
+    right: 10px;
+}
+
 label {
     user-select: none;
 }
