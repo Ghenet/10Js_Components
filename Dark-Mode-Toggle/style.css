@@ -28,5 +28,19 @@ body.dark {
 }
 
 label {
+    background-color: #1f1f1f;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
     user-select: none;
+}
+
+body.dark label {
+    background-color: #fff;
+}
+
+input {
+    visibility: hidden;
 }
