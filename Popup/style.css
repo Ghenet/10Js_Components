@@ -29,9 +29,14 @@ button {
     bottom: 0;
     right: 0;
     background-color: rgba(0,0,0,0.5);
-    display: flex;
+
+    display: none;
     align-items: center;
     justify-content: center;
+}
+
+.popup-container.active {
+    display: flex;
 }
 
 .popup {
